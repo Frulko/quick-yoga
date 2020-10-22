@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		58B673DCF5174EE78CD804E0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 74F4D2CD72174D86886AE74D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9A13B28C5FCC41C1837DDABB /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F2BED7DF079F4A13AAADF7A0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1C3340E413B64AFD96B6382C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4694A13F66854D96BC032511 /* CMake Rules */,
+			);
+			dependencies = (
+				21EDCB847CBF417EAFAB7740 /* PBXTargetDependency */,
+				B70BC6900EEB41BC9A42FCE5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		194E6F3158C74ACF9A78A543 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */ = {isa = PBXBuildFile; fileRef = 8D799DA34B6246A2BE414171 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */; };
+		3AFF39492EF14ED286AB9664 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */ = {isa = PBXBuildFile; fileRef = 463A82A5A2E74EADBE21DD92 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */; };
+		65FB1F2B93714338A589091A /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */ = {isa = PBXBuildFile; fileRef = 9C9ED5E981F74AE289A06561 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */; };
+		6771155D7144470EB0B85518 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h */ = {isa = PBXBuildFile; fileRef = CAC65CD4FA214BA08E08576D /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h */; };
+		866285D0BAE14C278AF3B6DC /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h */ = {isa = PBXBuildFile; fileRef = 67F2E260FDA44A6994F8F8FA /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h */; };
+		A8647CA3AB7F43E8A1464B54 /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1EE737DC882B4203BD29C46E /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */; };
+		C3282FAB8C774A139BF7732C /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */ = {isa = PBXBuildFile; fileRef = 7522BE40C143476FBB1C5451 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */; };
+		C3608159E4AE48AFBFCDCC2D /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */ = {isa = PBXBuildFile; fileRef = 7A604585292241D9860AD476 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */; };
+		D1A7B689434B44B496398387 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule */ = {isa = PBXBuildFile; fileRef = A492D5CB302E425CA55D042C /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule */; };
+		DBF93E3D3E314DB19D6BA9E7 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */ = {isa = PBXBuildFile; fileRef = 1A951DA341E841CE8BDC3B60 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0BB8BEACA3B74284985A8C2C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		1DBDCB5D54A3456C9183E2F4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		375D96E455C0465CA366428D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		4E8B1EF235E9478E841D0180 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		5A3E5EA5747940B6A849E84C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF68C15FC8CE488DAE12C940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A204B615A28448978509276D;
+			remoteInfo = quickjs;
+		};
+		7F8834106B754332B396077C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF68C15FC8CE488DAE12C940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B673DCF5174EE78CD804E0;
+			remoteInfo = ZERO_CHECK;
+		};
+		AF75DAEDF6E348ECB6F4A537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF68C15FC8CE488DAE12C940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B673DCF5174EE78CD804E0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A951DA341E841CE8BDC3B60 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "quickjs-libc.c"; path = "../../build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c"; sourceTree = SOURCE_ROOT; };
+		1EE737DC882B4203BD29C46E /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		38981CD4212B427998C5EAA8 /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		463A82A5A2E74EADBE21DD92 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = libregexp.c; path = "../../build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c"; sourceTree = SOURCE_ROOT; };
+		67F2E260FDA44A6994F8F8FA /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "quickjs-libc.h"; path = "../../build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h"; sourceTree = SOURCE_ROOT; };
+		7522BE40C143476FBB1C5451 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cutils.c; path = "../../build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c"; sourceTree = SOURCE_ROOT; };
+		7A604585292241D9860AD476 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = libunicode.c; path = "../../build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c"; sourceTree = SOURCE_ROOT; };
+		8D799DA34B6246A2BE414171 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = libbf.c; path = "../../build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c"; sourceTree = SOURCE_ROOT; };
+		9C9ED5E981F74AE289A06561 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quickjs.c; path = "../../build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c"; sourceTree = SOURCE_ROOT; };
+		9DBB15304D494888AD00BFBD /* quickjs */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libquickjs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A492D5CB302E425CA55D042C /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = quickjs.h.rule; path = "../../build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule"; sourceTree = SOURCE_ROOT; };
+		CAC65CD4FA214BA08E08576D /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quickjs.h; path = "../../build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		072FDF13F3EA457F86F3D265 = {
+			isa = PBXGroup;
+			children = (
+				12F73E0E879B4F3C8CD6CA34 /* quickjs */,
+				BC89819EC63B47E2959D958F /* ALL_BUILD */,
+				3EF20F28794145A7A6DA9DAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1077E4B9D359412F89EE454E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				A492D5CB302E425CA55D042C /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		12F73E0E879B4F3C8CD6CA34 /* quickjs */ = {
+			isa = PBXGroup;
+			children = (
+				7433F27FBF0149739EE4C080 /* Header Files */,
+				CE8CE2944CA14D879FF53004 /* Source Files */,
+				1077E4B9D359412F89EE454E /* CMake Rules */,
+				1EE737DC882B4203BD29C46E /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */,
+			);
+			name = quickjs;
+			sourceTree = "<group>";
+		};
+		3EF20F28794145A7A6DA9DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DBB15304D494888AD00BFBD /* quickjs */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7433F27FBF0149739EE4C080 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				67F2E260FDA44A6994F8F8FA /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h */,
+				CAC65CD4FA214BA08E08576D /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7A2A1452EAD94982968B1731 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BC89819EC63B47E2959D958F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7A2A1452EAD94982968B1731 /* CMake Rules */,
+				38981CD4212B427998C5EAA8 /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CE8CE2944CA14D879FF53004 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7522BE40C143476FBB1C5451 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */,
+				8D799DA34B6246A2BE414171 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */,
+				463A82A5A2E74EADBE21DD92 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */,
+				7A604585292241D9860AD476 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */,
+				1A951DA341E841CE8BDC3B60 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */,
+				9C9ED5E981F74AE289A06561 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A204B615A28448978509276D /* quickjs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932EAB1CBC89427986728C36 /* Build configuration list for PBXNativeTarget "quickjs" */;
+			buildPhases = (
+				9C78778FB6FD4663979034B0 /* CMake Rules */,
+				4FD1226FBE1449BE887FD5D2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C416225DFE4F67824ABF44 /* PBXTargetDependency */,
+			);
+			name = quickjs;
+			productName = quickjs;
+			productReference = 9DBB15304D494888AD00BFBD /* quickjs */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF68C15FC8CE488DAE12C940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 1818E3C675334CEB970CBEE9 /* Build configuration list for PBXProject "quickjs" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4E8B1EF235E9478E841D0180 /* Debug */,
+				375D96E455C0465CA366428D /* Release */,
+				0BB8BEACA3B74284985A8C2C /* MinSizeRel */,
+				1DBDCB5D54A3456C9183E2F4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 072FDF13F3EA457F86F3D265;
+			projectDirPath = "../../../lib/quickjs-cmake";
+			projectRoot = "";
+			targets = (
+				F2BED7DF079F4A13AAADF7A0 /* ALL_BUILD */,
+				58B673DCF5174EE78CD804E0 /* ZERO_CHECK */,
+				A204B615A28448978509276D /* quickjs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4694A13F66854D96BC032511 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake -f /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		58E9416526EC4BDA8C963C9E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9A13B28C5FCC41C1837DDABB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake -f /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9C78778FB6FD4663979034B0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake -f /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/CMakeScripts/quickjs_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D4119768788949E4AEB9927E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FD1226FBE1449BE887FD5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3282FAB8C774A139BF7732C /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */,
+				194E6F3158C74ACF9A78A543 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */,
+				3AFF39492EF14ED286AB9664 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */,
+				C3608159E4AE48AFBFCDCC2D /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */,
+				DBF93E3D3E314DB19D6BA9E7 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */,
+				65FB1F2B93714338A589091A /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21EDCB847CBF417EAFAB7740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A204B615A28448978509276D /* quickjs */;
+			targetProxy = 5A3E5EA5747940B6A849E84C /* PBXContainerItemProxy */;
+		};
+		B70BC6900EEB41BC9A42FCE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B673DCF5174EE78CD804E0 /* ZERO_CHECK */;
+			targetProxy = 7F8834106B754332B396077C /* PBXContainerItemProxy */;
+		};
+		D9C416225DFE4F67824ABF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B673DCF5174EE78CD804E0 /* ZERO_CHECK */;
+			targetProxy = AF75DAEDF6E348ECB6F4A537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EC05742554844588C4C4889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		11EDCE7CF7474AF18196FB19 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/build";
+			};
+			name = MinSizeRel;
+		};
+		238BDB6EF1E1426DA660C7EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		35B6811EE61E46CC9A92AEDC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'CONFIG_VERSION=\"2020-07-05\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quickjs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3A64F985DD144FB3B148C7A5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		452D7EF70D214158A66AABE5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5B1995791208496AA70AE1FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'CONFIG_VERSION=\"2020-07-05\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quickjs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7B0E72D969554D78A450217D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'CONFIG_VERSION=\"2020-07-05\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quickjs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		82737F927C4441D1B2AFFA99 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		88BAA23285E54B9AA7E49551 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8B290C44D3C94708BA756694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A65717817A6A4DB8BBF4192B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'CONFIG_VERSION=\"2020-07-05\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quickjs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CC0E64266811491FAC3BD345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/build";
+			};
+			name = Release;
+		};
+		EA3B2462024F4788B4BB1511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EFCDBE04CD9E47379DD12060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/build";
+			};
+			name = Debug;
+		};
+		FF4D7C4F1E784A5FB8A53015 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1818E3C675334CEB970CBEE9 /* Build configuration list for PBXProject "quickjs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFCDBE04CD9E47379DD12060 /* Debug */,
+				CC0E64266811491FAC3BD345 /* Release */,
+				11EDCE7CF7474AF18196FB19 /* MinSizeRel */,
+				FF4D7C4F1E784A5FB8A53015 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1C3340E413B64AFD96B6382C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC05742554844588C4C4889 /* Debug */,
+				EA3B2462024F4788B4BB1511 /* Release */,
+				88BAA23285E54B9AA7E49551 /* MinSizeRel */,
+				452D7EF70D214158A66AABE5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		74F4D2CD72174D86886AE74D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B290C44D3C94708BA756694 /* Debug */,
+				238BDB6EF1E1426DA660C7EF /* Release */,
+				82737F927C4441D1B2AFFA99 /* MinSizeRel */,
+				3A64F985DD144FB3B148C7A5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		932EAB1CBC89427986728C36 /* Build configuration list for PBXNativeTarget "quickjs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0E72D969554D78A450217D /* Debug */,
+				5B1995791208496AA70AE1FB /* Release */,
+				A65717817A6A4DB8BBF4192B /* MinSizeRel */,
+				35B6811EE61E46CC9A92AEDC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF68C15FC8CE488DAE12C940 /* Project object */;
+}

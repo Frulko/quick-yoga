@@ -1,0 +1,1303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		58B673DCF5174EE78CD804E0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 93B0E2B13AB44E1687A0C9CE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				FB1EFCFA88E74A29A7A38D12 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F2BED7DF079F4A13AAADF7A0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 61B79623D4FD461F8962FACD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				86EECFEB9A3B4260A7449488 /* CMake Rules */,
+			);
+			dependencies = (
+				CE2FC36C03A64F198E596C7E /* PBXTargetDependency */,
+				02242E7D10B64008983B97C7 /* PBXTargetDependency */,
+				DB9E90387A834D99BE3ED094 /* PBXTargetDependency */,
+				47B1C029C2C740119F1A90E7 /* PBXTargetDependency */,
+				BB032A14311A4066B1FDCBAA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		057B83FE6A0A4944B5F842D8 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNodePrint.cpp */ = {isa = PBXBuildFile; fileRef = 6E19CAE1E61A4B25B0FDFC22 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNodePrint.cpp */; };
+		0A8FF18394764E5C851F612B /* /Users/guillaumedumoulin/Desktop/app/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 95185945D27546BA8DA00AD9 /* /Users/guillaumedumoulin/Desktop/app/CMakeLists.txt */; };
+		0AA323600C0B42B4894BB310 /* /Users/guillaumedumoulin/Desktop/app/lib/math/operations.cpp */ = {isa = PBXBuildFile; fileRef = 8ED11B0709CA440AA0ACE7EB /* /Users/guillaumedumoulin/Desktop/app/lib/math/operations.cpp */; };
+		0F4D879DEE2441CDBF250F70 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Yoga.cpp */ = {isa = PBXBuildFile; fileRef = E6F993673359419EAC0B50F3 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Yoga.cpp */; };
+		2B126E0D896C4C73AC130917 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNode.cpp */ = {isa = PBXBuildFile; fileRef = DD512FCEED564A5D8BDEDDD8 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNode.cpp */; };
+		33288C1699414436BD27E5D9 /* /Users/guillaumedumoulin/Desktop/app/lib/math/plop.cpp */ = {isa = PBXBuildFile; fileRef = 2CEE43E7291146F189DCC383 /* /Users/guillaumedumoulin/Desktop/app/lib/math/plop.cpp */; };
+		3A7E84214AE34DED89C67A97 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */ = {isa = PBXBuildFile; fileRef = C3C13FD493B64F239A3BFD47 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */; };
+		415AF4DD0E8346FD8FD5CD89 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */ = {isa = PBXBuildFile; fileRef = 064C9EC959AE42D18AE67166 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */; };
+		41F581D62AC7443FA49BA8D5 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGLayout.cpp */ = {isa = PBXBuildFile; fileRef = 97A7F1481A994716A84C13A9 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGLayout.cpp */; };
+		478E66F1AE09428A93C2700E /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGConfig.cpp */ = {isa = PBXBuildFile; fileRef = 4C28671394324EA0999BAE16 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGConfig.cpp */; };
+		49064FEF221D455C887E0F09 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3703313AA11A4240948C8B9F /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/CMakeLists.txt */; };
+		617C299596614B428FC21144 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGStyle.cpp */ = {isa = PBXBuildFile; fileRef = 3BB45EDEDADA450B960E9F91 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGStyle.cpp */; };
+		6E3C39CB643440AAA368945A /* /Users/guillaumedumoulin/Desktop/app/lib/math/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1408A1CE95DF4AD6841770F4 /* /Users/guillaumedumoulin/Desktop/app/lib/math/CMakeLists.txt */; };
+		6F0771C25B4947838177FF02 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */ = {isa = PBXBuildFile; fileRef = F260D72143CA47538C80C22B /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */; };
+		7812253B155F4A75AFAECBBA /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */ = {isa = PBXBuildFile; fileRef = 78E0D0E8049E411BA5DDAC48 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */; };
+		8701B5C1691741FC8C994C3B /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/log.cpp */ = {isa = PBXBuildFile; fileRef = 735EDFB1CA2C4D50BCBFC0DC /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/log.cpp */; };
+		AE8EEDAC3FFE4887AEEFF985 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */ = {isa = PBXBuildFile; fileRef = 376DA518CEB0430C96CF8FC6 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */; };
+		AF7C6A3C839D4EBE9D0EB739 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule */ = {isa = PBXBuildFile; fileRef = 7586D927B7E247ED86F35563 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule */; };
+		B116B09AD5D54EEEBDD66013 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h */ = {isa = PBXBuildFile; fileRef = F877E78C29CB47759E2AB69F /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h */; };
+		C29FB2D5052442949C023713 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */ = {isa = PBXBuildFile; fileRef = 5B6F9C34D62B4C669DE894F1 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */; };
+		C33EA17E1C4C4728B653EF0A /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h */ = {isa = PBXBuildFile; fileRef = 576ACB7787BA41399A526AF3 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h */; };
+		CF20FE9F29FC4C56A2422068 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGEnums.cpp */ = {isa = PBXBuildFile; fileRef = AE838E666B124E88BC3DF792 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGEnums.cpp */; };
+		D661F7128EEF460CA6CFF205 /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A6D5AA67898241A786B6C9C9 /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */; };
+		E22C7C409EFB45E38920C005 /* /Users/guillaumedumoulin/Desktop/app/main.cpp */ = {isa = PBXBuildFile; fileRef = DC26C5FA2D964A4397F86C04 /* /Users/guillaumedumoulin/Desktop/app/main.cpp */; };
+		E4587C5117E04B098B1306F6 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGValue.cpp */ = {isa = PBXBuildFile; fileRef = E3E6956859F148928AEBD639 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGValue.cpp */; };
+		E829A7370021485B813DD92C /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Utils.cpp */ = {isa = PBXBuildFile; fileRef = 3DCD193DDD8F410698846277 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Utils.cpp */; };
+		EE721FBF803845E7B7976CC2 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/internal/experiments.cpp */ = {isa = PBXBuildFile; fileRef = 48BB9C01BE0C4CDBA860C1D3 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/internal/experiments.cpp */; };
+		EFBA63DA210A48B49596BFA9 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/event/event.cpp */ = {isa = PBXBuildFile; fileRef = D997D44B76584A11BFFC79FB /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/event/event.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		070DA988E1BC4E11A537D282 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		65B4EAADCFE8423FA2026ADA /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		AD5102ED732041E992EB7F84 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		B4137BD06C1A4D18A01C38E6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		16EE34C9D77D49D9AAA1367E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459D2BB40BDD4825BE8AC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B673DCF5174EE78CD804E0;
+			remoteInfo = ZERO_CHECK;
+		};
+		3624B4A3F2F5496787B9EB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459D2BB40BDD4825BE8AC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A204B615A28448978509276D;
+			remoteInfo = quickjs;
+		};
+		39EF4572007C413F9FDEBF1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459D2BB40BDD4825BE8AC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B673DCF5174EE78CD804E0;
+			remoteInfo = ZERO_CHECK;
+		};
+		665D80EABB5441F6A11DB89A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459D2BB40BDD4825BE8AC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A384D4BA5C461C876F4D28;
+			remoteInfo = math;
+		};
+		74721F8C655345F18BF7B956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459D2BB40BDD4825BE8AC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45F0132A02844D792FF1564;
+			remoteInfo = yogacore;
+		};
+		86E32F88E55D41C285B99969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459D2BB40BDD4825BE8AC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6A384D4BA5C461C876F4D28;
+			remoteInfo = math;
+		};
+		8E45771AF9C44518B3898152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459D2BB40BDD4825BE8AC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45F0132A02844D792FF1564;
+			remoteInfo = yogacore;
+		};
+		A61D8EE6DE534CDB89624767 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459D2BB40BDD4825BE8AC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A204B615A28448978509276D;
+			remoteInfo = quickjs;
+		};
+		B16B64AB10704666AEE02E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 459D2BB40BDD4825BE8AC61C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A663AA97031D49FF9185CE97;
+			remoteInfo = cmake_hello;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064C9EC959AE42D18AE67166 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = libunicode.c; path = "build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c"; sourceTree = SOURCE_ROOT; };
+		0DA0797866884CCDA5B1499A /* quickjs */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libquickjs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1408A1CE95DF4AD6841770F4 /* /Users/guillaumedumoulin/Desktop/app/lib/math/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = lib/math/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2CEE43E7291146F189DCC383 /* /Users/guillaumedumoulin/Desktop/app/lib/math/plop.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plop.cpp; path = lib/math/plop.cpp; sourceTree = SOURCE_ROOT; };
+		3703313AA11A4240948C8B9F /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = lib/yoga/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		376DA518CEB0430C96CF8FC6 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cutils.c; path = "build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c"; sourceTree = SOURCE_ROOT; };
+		3BB45EDEDADA450B960E9F91 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGStyle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = YGStyle.cpp; path = lib/yoga/yoga/YGStyle.cpp; sourceTree = SOURCE_ROOT; };
+		3DCD193DDD8F410698846277 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Utils.cpp; path = lib/yoga/yoga/Utils.cpp; sourceTree = SOURCE_ROOT; };
+		48BB9C01BE0C4CDBA860C1D3 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/internal/experiments.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = experiments.cpp; path = lib/yoga/yoga/internal/experiments.cpp; sourceTree = SOURCE_ROOT; };
+		4C28671394324EA0999BAE16 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGConfig.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = YGConfig.cpp; path = lib/yoga/yoga/YGConfig.cpp; sourceTree = SOURCE_ROOT; };
+		576ACB7787BA41399A526AF3 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "quickjs-libc.h"; path = "build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h"; sourceTree = SOURCE_ROOT; };
+		5B6F9C34D62B4C669DE894F1 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = libbf.c; path = "build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c"; sourceTree = SOURCE_ROOT; };
+		5BF1B3C0C6004287A7816DD0 /* yogacore */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libyogacore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E19CAE1E61A4B25B0FDFC22 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNodePrint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = YGNodePrint.cpp; path = lib/yoga/yoga/YGNodePrint.cpp; sourceTree = SOURCE_ROOT; };
+		735EDFB1CA2C4D50BCBFC0DC /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/log.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = log.cpp; path = lib/yoga/yoga/log.cpp; sourceTree = SOURCE_ROOT; };
+		7586D927B7E247ED86F35563 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = quickjs.h.rule; path = "build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule"; sourceTree = SOURCE_ROOT; };
+		78E0D0E8049E411BA5DDAC48 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = "quickjs-libc.c"; path = "build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c"; sourceTree = SOURCE_ROOT; };
+		8ED11B0709CA440AA0ACE7EB /* /Users/guillaumedumoulin/Desktop/app/lib/math/operations.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = operations.cpp; path = lib/math/operations.cpp; sourceTree = SOURCE_ROOT; };
+		945975E14BAD462290C25EBD /* /Users/guillaumedumoulin/Desktop/app/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		95185945D27546BA8DA00AD9 /* /Users/guillaumedumoulin/Desktop/app/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		97A7F1481A994716A84C13A9 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGLayout.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = YGLayout.cpp; path = lib/yoga/yoga/YGLayout.cpp; sourceTree = SOURCE_ROOT; };
+		A6D5AA67898241A786B6C9C9 /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "lib/quickjs-cmake/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		AE838E666B124E88BC3DF792 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGEnums.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = YGEnums.cpp; path = lib/yoga/yoga/YGEnums.cpp; sourceTree = SOURCE_ROOT; };
+		C3C13FD493B64F239A3BFD47 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = libregexp.c; path = "build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c"; sourceTree = SOURCE_ROOT; };
+		D997D44B76584A11BFFC79FB /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/event/event.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = event.cpp; path = lib/yoga/yoga/event/event.cpp; sourceTree = SOURCE_ROOT; };
+		DC26C5FA2D964A4397F86C04 /* /Users/guillaumedumoulin/Desktop/app/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		DD512FCEED564A5D8BDEDDD8 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = YGNode.cpp; path = lib/yoga/yoga/YGNode.cpp; sourceTree = SOURCE_ROOT; };
+		DDEBE0C9EBFB47FB8A3BA95A /* cmake_hello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = cmake_hello; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E6956859F148928AEBD639 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGValue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = YGValue.cpp; path = lib/yoga/yoga/YGValue.cpp; sourceTree = SOURCE_ROOT; };
+		E6F993673359419EAC0B50F3 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Yoga.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Yoga.cpp; path = lib/yoga/yoga/Yoga.cpp; sourceTree = SOURCE_ROOT; };
+		F260D72143CA47538C80C22B /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = quickjs.c; path = "build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c"; sourceTree = SOURCE_ROOT; };
+		F877E78C29CB47759E2AB69F /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quickjs.h; path = "build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h"; sourceTree = SOURCE_ROOT; };
+		FE5BA0BFE5B34953B428E425 /* math */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1B07B86672634B20B5AF89E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEBE0C9EBFB47FB8A3BA95A /* cmake_hello */,
+				FE5BA0BFE5B34953B428E425 /* math */,
+				0DA0797866884CCDA5B1499A /* quickjs */,
+				5BF1B3C0C6004287A7816DD0 /* yogacore */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F6B1AED3C34B81818ED988 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				376DA518CEB0430C96CF8FC6 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */,
+				5B6F9C34D62B4C669DE894F1 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */,
+				C3C13FD493B64F239A3BFD47 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */,
+				064C9EC959AE42D18AE67166 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */,
+				78E0D0E8049E411BA5DDAC48 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */,
+				F260D72143CA47538C80C22B /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		273F3D9FCBB74C6E9B985059 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				97110E2A5BD14A44B708AA4A /* CMake Rules */,
+				945975E14BAD462290C25EBD /* /Users/guillaumedumoulin/Desktop/app/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4D654AD77442495F80775122 /* cmake_hello */ = {
+			isa = PBXGroup;
+			children = (
+				92429AB48725457DBE79C1FF /* Source Files */,
+				95185945D27546BA8DA00AD9 /* /Users/guillaumedumoulin/Desktop/app/CMakeLists.txt */,
+			);
+			name = cmake_hello;
+			sourceTree = "<group>";
+		};
+		5D4CCA9DD7A042AA8F9625CA /* yogacore */ = {
+			isa = PBXGroup;
+			children = (
+				BE8529B50EB24E0BAC17444E /* Source Files */,
+				3703313AA11A4240948C8B9F /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/CMakeLists.txt */,
+			);
+			name = yogacore;
+			sourceTree = "<group>";
+		};
+		739BA42AD22B455EBFC70BA4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED11B0709CA440AA0ACE7EB /* /Users/guillaumedumoulin/Desktop/app/lib/math/operations.cpp */,
+				2CEE43E7291146F189DCC383 /* /Users/guillaumedumoulin/Desktop/app/lib/math/plop.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		89D0D5DC867E4DC387D75D71 /* quickjs */ = {
+			isa = PBXGroup;
+			children = (
+				FD696E21176446B5A8CF13A0 /* Header Files */,
+				26F6B1AED3C34B81818ED988 /* Source Files */,
+				B06FED9E3FB24F1C905938E3 /* CMake Rules */,
+				A6D5AA67898241A786B6C9C9 /* /Users/guillaumedumoulin/Desktop/app/lib/quickjs-cmake/CMakeLists.txt */,
+			);
+			name = quickjs;
+			sourceTree = "<group>";
+		};
+		92429AB48725457DBE79C1FF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC26C5FA2D964A4397F86C04 /* /Users/guillaumedumoulin/Desktop/app/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		97110E2A5BD14A44B708AA4A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B06FED9E3FB24F1C905938E3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				7586D927B7E247ED86F35563 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B7CE2FF20394482C81D10259 = {
+			isa = PBXGroup;
+			children = (
+				4D654AD77442495F80775122 /* cmake_hello */,
+				273F3D9FCBB74C6E9B985059 /* ALL_BUILD */,
+				D2C4762B3E1043429B5AB94A /* math */,
+				5D4CCA9DD7A042AA8F9625CA /* yogacore */,
+				89D0D5DC867E4DC387D75D71 /* quickjs */,
+				1B07B86672634B20B5AF89E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE8529B50EB24E0BAC17444E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DCD193DDD8F410698846277 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Utils.cpp */,
+				4C28671394324EA0999BAE16 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGConfig.cpp */,
+				AE838E666B124E88BC3DF792 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGEnums.cpp */,
+				97A7F1481A994716A84C13A9 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGLayout.cpp */,
+				DD512FCEED564A5D8BDEDDD8 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNode.cpp */,
+				6E19CAE1E61A4B25B0FDFC22 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNodePrint.cpp */,
+				3BB45EDEDADA450B960E9F91 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGStyle.cpp */,
+				E3E6956859F148928AEBD639 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGValue.cpp */,
+				E6F993673359419EAC0B50F3 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Yoga.cpp */,
+				D997D44B76584A11BFFC79FB /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/event/event.cpp */,
+				48BB9C01BE0C4CDBA860C1D3 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/internal/experiments.cpp */,
+				735EDFB1CA2C4D50BCBFC0DC /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/log.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D2C4762B3E1043429B5AB94A /* math */ = {
+			isa = PBXGroup;
+			children = (
+				739BA42AD22B455EBFC70BA4 /* Source Files */,
+				1408A1CE95DF4AD6841770F4 /* /Users/guillaumedumoulin/Desktop/app/lib/math/CMakeLists.txt */,
+			);
+			name = math;
+			sourceTree = "<group>";
+		};
+		FD696E21176446B5A8CF13A0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				576ACB7787BA41399A526AF3 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.h */,
+				F877E78C29CB47759E2AB69F /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A204B615A28448978509276D /* quickjs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E94C476974724AF4BE31860E /* Build configuration list for PBXNativeTarget "quickjs" */;
+			buildPhases = (
+				419469A18944421584F94A8E /* CMake Rules */,
+				EFDFE94E408A48BF838BD203 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quickjs;
+			productName = quickjs;
+			productReference = 0DA0797866884CCDA5B1499A /* quickjs */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A663AA97031D49FF9185CE97 /* cmake_hello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266A2A6132F546E795AEAADD /* Build configuration list for PBXNativeTarget "cmake_hello" */;
+			buildPhases = (
+				2A28049AA722441496C6479D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				268854CF828B49D19344522B /* PBXTargetDependency */,
+				F2215307C8B540AC865BED61 /* PBXTargetDependency */,
+				3766C6160F9744808838BD55 /* PBXTargetDependency */,
+				EACA2FEE7B3448ECA77ECEDA /* PBXTargetDependency */,
+			);
+			name = cmake_hello;
+			productName = cmake_hello;
+			productReference = DDEBE0C9EBFB47FB8A3BA95A /* cmake_hello */;
+			productType = "com.apple.product-type.tool";
+		};
+		A6A384D4BA5C461C876F4D28 /* math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E6E5C4927694504BC85802B /* Build configuration list for PBXNativeTarget "math" */;
+			buildPhases = (
+				F3753BCB420A45ADA04B4B38 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = math;
+			productName = math;
+			productReference = FE5BA0BFE5B34953B428E425 /* math */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F45F0132A02844D792FF1564 /* yogacore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA82E707174447D7B029608C /* Build configuration list for PBXNativeTarget "yogacore" */;
+			buildPhases = (
+				A6ABD101514C413DA1254952 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yogacore;
+			productName = yogacore;
+			productReference = 5BF1B3C0C6004287A7816DD0 /* yogacore */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		459D2BB40BDD4825BE8AC61C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 68CE1CAD39AA40CFAFFFC397 /* Build configuration list for PBXProject "CMakeHello" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B4137BD06C1A4D18A01C38E6 /* Debug */,
+				070DA988E1BC4E11A537D282 /* Release */,
+				AD5102ED732041E992EB7F84 /* MinSizeRel */,
+				65B4EAADCFE8423FA2026ADA /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B7CE2FF20394482C81D10259;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				F2BED7DF079F4A13AAADF7A0 /* ALL_BUILD */,
+				58B673DCF5174EE78CD804E0 /* ZERO_CHECK */,
+				A663AA97031D49FF9185CE97 /* cmake_hello */,
+				A6A384D4BA5C461C876F4D28 /* math */,
+				A204B615A28448978509276D /* quickjs */,
+				F45F0132A02844D792FF1564 /* yogacore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E8BC92CA5A34F3FA7DF4E24 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		419469A18944421584F94A8E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake -f /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/CMakeScripts/quickjs_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		43C2B3AAE8214AC595EEB69B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		86EECFEB9A3B4260A7449488 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/guillaumedumoulin/Desktop/app/build_macos -f /Users/guillaumedumoulin/Desktop/app/build_macos/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FB1EFCFA88E74A29A7A38D12 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/guillaumedumoulin/Desktop/app/build_macos -f /Users/guillaumedumoulin/Desktop/app/build_macos/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A28049AA722441496C6479D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22C7C409EFB45E38920C005 /* /Users/guillaumedumoulin/Desktop/app/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6ABD101514C413DA1254952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E829A7370021485B813DD92C /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Utils.cpp */,
+				478E66F1AE09428A93C2700E /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGConfig.cpp */,
+				CF20FE9F29FC4C56A2422068 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGEnums.cpp */,
+				41F581D62AC7443FA49BA8D5 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGLayout.cpp */,
+				2B126E0D896C4C73AC130917 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNode.cpp */,
+				057B83FE6A0A4944B5F842D8 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGNodePrint.cpp */,
+				617C299596614B428FC21144 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGStyle.cpp */,
+				E4587C5117E04B098B1306F6 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/YGValue.cpp */,
+				0F4D879DEE2441CDBF250F70 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/Yoga.cpp */,
+				EFBA63DA210A48B49596BFA9 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/event/event.cpp */,
+				EE721FBF803845E7B7976CC2 /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/internal/experiments.cpp */,
+				8701B5C1691741FC8C994C3B /* /Users/guillaumedumoulin/Desktop/app/lib/yoga/yoga/log.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDFE94E408A48BF838BD203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE8EEDAC3FFE4887AEEFF985 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/cutils.c */,
+				C29FB2D5052442949C023713 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libbf.c */,
+				3A7E84214AE34DED89C67A97 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libregexp.c */,
+				415AF4DD0E8346FD8FD5CD89 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/libunicode.c */,
+				7812253B155F4A75AFAECBBA /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs-libc.c */,
+				6F0771C25B4947838177FF02 /* /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05/quickjs.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3753BCB420A45ADA04B4B38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA323600C0B42B4894BB310 /* /Users/guillaumedumoulin/Desktop/app/lib/math/operations.cpp */,
+				33288C1699414436BD27E5D9 /* /Users/guillaumedumoulin/Desktop/app/lib/math/plop.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02242E7D10B64008983B97C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A384D4BA5C461C876F4D28 /* math */;
+			targetProxy = 86E32F88E55D41C285B99969 /* PBXContainerItemProxy */;
+		};
+		268854CF828B49D19344522B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6A384D4BA5C461C876F4D28 /* math */;
+			targetProxy = 665D80EABB5441F6A11DB89A /* PBXContainerItemProxy */;
+		};
+		3766C6160F9744808838BD55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A204B615A28448978509276D /* quickjs */;
+			targetProxy = 3624B4A3F2F5496787B9EB2C /* PBXContainerItemProxy */;
+		};
+		47B1C029C2C740119F1A90E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A204B615A28448978509276D /* quickjs */;
+			targetProxy = A61D8EE6DE534CDB89624767 /* PBXContainerItemProxy */;
+		};
+		BB032A14311A4066B1FDCBAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B673DCF5174EE78CD804E0 /* ZERO_CHECK */;
+			targetProxy = 39EF4572007C413F9FDEBF1D /* PBXContainerItemProxy */;
+		};
+		CE2FC36C03A64F198E596C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A663AA97031D49FF9185CE97 /* cmake_hello */;
+			targetProxy = B16B64AB10704666AEE02E26 /* PBXContainerItemProxy */;
+		};
+		DB9E90387A834D99BE3ED094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45F0132A02844D792FF1564 /* yogacore */;
+			targetProxy = 74721F8C655345F18BF7B956 /* PBXContainerItemProxy */;
+		};
+		EACA2FEE7B3448ECA77ECEDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B673DCF5174EE78CD804E0 /* ZERO_CHECK */;
+			targetProxy = 16EE34C9D77D49D9AAA1367E /* PBXContainerItemProxy */;
+		};
+		F2215307C8B540AC865BED61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45F0132A02844D792FF1564 /* yogacore */;
+			targetProxy = 8E45771AF9C44518B3898152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BBDCB90D83E49D2A785A891 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = math;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/math;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		11BBB27C05404F48A82B0951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/guillaumedumoulin/Desktop/app/build_macos/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/guillaumedumoulin/Desktop/app/lib/yoga/.,"/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/guillaumedumoulin/Desktop/app/build_macos/lib/Release/libmath.a /Users/guillaumedumoulin/Desktop/app/build_macos/lib/yoga/Release/libyogacore.a /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/Release/libquickjs.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmake_hello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1C80998ADC344EEDA7666041 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall        -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = math;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/math;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1F44D22EFFE04E5EA18D7241 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2D430C2760894C51A5790AB6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		37A50DF082BF45BC9B3B76A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = math;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/math;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		38ACB09C4EED4ECC8FC57CB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		39397320CA6948E39A2E2401 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		402828DD9B0D4E56B17EFF60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'CONFIG_VERSION=\"2020-07-05\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quickjs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4D6C8E7BE6E5487FAA70DD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4DAA9C4FB8D24F738C3568FE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		65F8292908E24405A779FBE4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'CONFIG_VERSION=\"2020-07-05\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quickjs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7D4817035ACD4645B836A29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		80A53011DD2346FCBCF97126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/guillaumedumoulin/Desktop/app/lib/yoga/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall     -DNDEBUG -fno-omit-frame-pointer -fexceptions '-fvisibility=hidden' -ffunction-sections -fdata-sections -Wall '-std=c++11' '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yogacore;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/yoga;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		91CFE70A390242FC90034961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/guillaumedumoulin/Desktop/app/lib/yoga/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall    -fno-omit-frame-pointer -fexceptions '-fvisibility=hidden' -ffunction-sections -fdata-sections -Wall '-std=c++11' '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yogacore;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/yoga;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9F9F591A188244729FCC86ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/build;
+			};
+			name = Release;
+		};
+		9FE8C4D18791461C96F09EE5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/guillaumedumoulin/Desktop/app/build_macos/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/guillaumedumoulin/Desktop/app/lib/yoga/.,"/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall     -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/guillaumedumoulin/Desktop/app/build_macos/lib/MinSizeRel/libmath.a /Users/guillaumedumoulin/Desktop/app/build_macos/lib/yoga/MinSizeRel/libyogacore.a /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/MinSizeRel/libquickjs.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmake_hello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B1A39F54BB9E4E3EB2844C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall    '-std=gnu++14'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = math;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/math;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BE92B46C33F4467BAC4BDBEF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'CONFIG_VERSION=\"2020-07-05\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quickjs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C1B0351E3BAE41899A395B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CE983235D35C4C848E1221F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/build;
+			};
+			name = Debug;
+		};
+		DB79C71CCAFE4F72AA1479AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/guillaumedumoulin/Desktop/app/build_macos/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/guillaumedumoulin/Desktop/app/lib/yoga/.,"/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall        -DNDEBUG '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/guillaumedumoulin/Desktop/app/build_macos/lib/RelWithDebInfo/libmath.a /Users/guillaumedumoulin/Desktop/app/build_macos/lib/yoga/RelWithDebInfo/libyogacore.a /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/RelWithDebInfo/libquickjs.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmake_hello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DEE0E8520D1B48F993D6CE29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/guillaumedumoulin/Desktop/app/build_macos/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/guillaumedumoulin/Desktop/app/lib/yoga/.,"/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -Wall    '-std=gnu++14'  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/guillaumedumoulin/Desktop/app/build_macos/lib/Debug/libmath.a /Users/guillaumedumoulin/Desktop/app/build_macos/lib/yoga/Debug/libyogacore.a /Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/Debug/libquickjs.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = cmake_hello;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EBF37FD3952346F5BD0C863E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/guillaumedumoulin/Desktop/app/lib/yoga/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall        -DNDEBUG -fno-omit-frame-pointer -fexceptions '-fvisibility=hidden' -ffunction-sections -fdata-sections -Wall '-std=c++11' '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yogacore;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/yoga;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EFAEB60EE48048F299EA60AA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/build;
+			};
+			name = MinSizeRel;
+		};
+		F2E6D9A428504A8FA7CA1B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'CONFIG_VERSION=\"2020-07-05\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake/sources/quickjs-2020-07-05");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = quickjs;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/guillaumedumoulin/Desktop/app/build_macos/lib/quickjs-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F80B5E3F29AC4A629062699E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/guillaumedumoulin/Desktop/app/lib/yoga/.);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall     -DNDEBUG -fno-omit-frame-pointer -fexceptions '-fvisibility=hidden' -ffunction-sections -fdata-sections -Wall '-std=c++11' '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = yogacore;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos/lib/yoga;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FD4130846AA642BDABEB5DB0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/guillaumedumoulin/Desktop/app/build_macos;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266A2A6132F546E795AEAADD /* Build configuration list for PBXNativeTarget "cmake_hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE0E8520D1B48F993D6CE29 /* Debug */,
+				11BBB27C05404F48A82B0951 /* Release */,
+				9FE8C4D18791461C96F09EE5 /* MinSizeRel */,
+				DB79C71CCAFE4F72AA1479AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61B79623D4FD461F8962FACD /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B0351E3BAE41899A395B0B /* Debug */,
+				7D4817035ACD4645B836A29C /* Release */,
+				39397320CA6948E39A2E2401 /* MinSizeRel */,
+				FD4130846AA642BDABEB5DB0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		68CE1CAD39AA40CFAFFFC397 /* Build configuration list for PBXProject "CMakeHello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE983235D35C4C848E1221F4 /* Debug */,
+				9F9F591A188244729FCC86ED /* Release */,
+				EFAEB60EE48048F299EA60AA /* MinSizeRel */,
+				1F44D22EFFE04E5EA18D7241 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E6E5C4927694504BC85802B /* Build configuration list for PBXNativeTarget "math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A39F54BB9E4E3EB2844C48 /* Debug */,
+				37A50DF082BF45BC9B3B76A0 /* Release */,
+				0BBDCB90D83E49D2A785A891 /* MinSizeRel */,
+				1C80998ADC344EEDA7666041 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		93B0E2B13AB44E1687A0C9CE /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6C8E7BE6E5487FAA70DD85 /* Debug */,
+				38ACB09C4EED4ECC8FC57CB7 /* Release */,
+				2D430C2760894C51A5790AB6 /* MinSizeRel */,
+				4DAA9C4FB8D24F738C3568FE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DA82E707174447D7B029608C /* Build configuration list for PBXNativeTarget "yogacore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CFE70A390242FC90034961 /* Debug */,
+				80A53011DD2346FCBCF97126 /* Release */,
+				F80B5E3F29AC4A629062699E /* MinSizeRel */,
+				EBF37FD3952346F5BD0C863E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E94C476974724AF4BE31860E /* Build configuration list for PBXNativeTarget "quickjs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E6D9A428504A8FA7CA1B0C /* Debug */,
+				402828DD9B0D4E56B17EFF60 /* Release */,
+				65F8292908E24405A779FBE4 /* MinSizeRel */,
+				BE92B46C33F4467BAC4BDBEF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 459D2BB40BDD4825BE8AC61C /* Project object */;
+}
